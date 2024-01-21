@@ -245,17 +245,11 @@ header .mobile {
 #campus-info {
     display: flex;
     background-color: ghostwhite;
-    align-items: center;
-}
-
-#campus-info .learning-quote .image-container img {
-    width: 100%;
-    height: auto;
 }
 
 .learning-quote {
-    width: 60%;
-    margin: 32px 24px 32px 24px;
+    width: 50%;
+    margin: 32px;
 }
 
 .learning-quote .content h2 {
@@ -264,38 +258,41 @@ header .mobile {
 
 .learning-quote .content span {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 32px 0;
+    padding: 32px 0;
     display: inline-block;
 }
+
 .campus-info {
     width: 40%;
-    
+    margin-top: 32px;
+    margin-left: 16px;
 }
 
-.campus-info .content{
-    width: 65%;
+.campus-info .image-container {
+    max-width: 32%;
+    margin: 16px;
 }
 
-.campus-info .side-container {
-    height: auto;
-}
-.campus-info .side-container .image-container img{
-    width: 100%;
-    
+.campus-info .content {
+    margin: 8px;
 }
 
-.campus-info .side-container .image-container {
-    width: 35%;
-    margin: 16px 16px;
-    height: auto;
+.campus-info .content h3 {
+    margin: 8px 0;
 }
 
-
-.campus-info .side-container .content p {
-    margin-left: 8px;
+.campus-info .content p {
+    line-height: 2;
 }
 
-.campus-info .side-container .image-container .mobile {
+.campus-info .content a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.campus-info  .mobile {
     display: none;
 }
 
