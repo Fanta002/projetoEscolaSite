@@ -391,6 +391,44 @@ header .mobile {
     font-size: 20px;
 }
 
+@media only screen and (max-width: 900px) {
+
+    #course-info .courses {
+        min-width: 36%;
+    }
+
+    #course-info .courses:hover {
+        min-width: 40%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    #course-info p {
+        display: none;
+    }
+
+    #course-info .course-container {
+        flex-flow: column;
+        align-items: center;
+    }
+
+    #course-info .courses {
+        background-color: lightgray;
+        opacity: 0.9;
+        margin: 0.5rem 1.5rem;
+        max-width: 80%;
+    }
+
+    #course-info .courses:hover {
+        max-width: 100%;
+    }
+
+    #course-info h3 {
+        font-size: 2rem;
+    }
+}
+
 
 
 
