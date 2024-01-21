@@ -317,7 +317,7 @@ header .mobile {
 
     #campus-info .side-container {
         flex-flow: column;
-        align-items: flex-start;
+        align-items:first baseline;
         border: none;
     }
 
@@ -326,7 +326,8 @@ header .mobile {
     }
 
     .campus-info .content {
-        padding-left: 2rem;
+        padding-left: 32px;
+   
     }
 
     #campus-info h3 {
